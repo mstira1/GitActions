@@ -3,7 +3,7 @@ import user.User;
 
 import static org.junit.Assert.assertEquals;
 
-public class userTest {
+public class UserTest {
     @Test
     public void testCreateUser() {
         User user = new User("Staffan","password123");
@@ -29,8 +29,8 @@ public class userTest {
     @Test
     public void testSetUserName(){
         User user = new User("Staffan","password123");
-        String expected = "Henry";
-        user.setUserName("Henry0");
+        String expected = "Henry1";
+        user.setUserName("Henry1");
         String actual = user.getUserName();
         assertEquals(expected,actual);
     }

@@ -30,7 +30,7 @@ public class userTest {
     public void testSetUserName(){
         User user = new User("Staffan","password123");
         String expected = "Henry";
-        user.setUserName("Henry0");
+        user.setUserName("Henry");
         String actual = user.getUserName();
         assertEquals(expected,actual);
     }
